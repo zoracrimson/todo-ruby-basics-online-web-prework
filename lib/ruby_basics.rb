@@ -13,8 +13,10 @@ def argue(phrase)
   return phrase
 end
 
-def greeting
-
+def greeting(greeting, name)
+  greeting = "Hello "
+  name = "Sophie"
+  return "#{greeting} #{name}"
 end
 
 def return_a_value
