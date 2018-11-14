@@ -19,9 +19,9 @@ def greeting(greeting, name)
   return "#{greeting} #{name}"
 end
 
-def return_a_value(value)
-  value = "Nice"
-  return value 
+def return_a_value(phrase)
+  phrase = "Nice"
+  return phrase 
 end
 
 def last_evaluated_value
